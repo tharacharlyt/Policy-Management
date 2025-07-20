@@ -1,0 +1,23 @@
+
+
+
+
+
+[
+  {
+    "UserId": "1",
+    "Name": "Admin User",
+    "Username": "admin",
+    "Password": "admin123",
+    "Roles": ["Admin"],
+    "Permissions": ["Policy.Add", "Policy.Edit", "Policy.Delete", "Policy.List", "Document.Add", "Document.Edit", "Document.Delete", "Document.List"]
+  },
+  {
+    "UserId": "2",
+    "Name": "Viewer User",
+    "Username": "viewer",
+    "Password": "viewer123",
+    "Roles": ["Viewer"],
+    "Permissions": ["Policy.List", "Document.List"]
+  }
+]
