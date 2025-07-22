@@ -13,15 +13,55 @@
       "Policy.Delete",
       "Policy.List",
       "Document.List"
-    ]
+    ],
+    "RefreshToken": "b8d24058-4e6f-4158-867a-c5b9b529a15f",
+    "RefreshTokenExpiryTime": "2025-07-29T18:23:56.047607Z"
   },
   {
-    "UserId": null,
-    "Name": null,
-    "Username": null,
-    "Password": null,
-    "Roles": null,
-    "Permissions": null
+    "UserId": "2",
+    "Name": "Manager User",
+    "Username": "manager",
+    "Password": "manager123",
+    "Roles": [
+      "Manager"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.List",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "3",
+    "Name": "Editor User",
+    "Username": "editor",
+    "Password": "editor123",
+    "Roles": [
+      "Editor"
+    ],
+    "Permissions": [
+      "Policy.Edit",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "4",
+    "Name": "Viewer User",
+    "Username": "viewer",
+    "Password": "viewer123",
+    "Roles": [
+      "Viewer"
+    ],
+    "Permissions": [
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
   },
   {
     "UserId": "5",
@@ -33,7 +73,9 @@
     ],
     "Permissions": [
       "Document.List"
-    ]
+    ],
+    "RefreshToken": "e0dc84f2-6345-4f63-a9b4-d6956dfa4cb5",
+    "RefreshTokenExpiryTime": "2025-07-29T18:23:48.535302Z"
   },
   {
     "UserId": "u10025",
@@ -41,7 +83,9 @@
     "Username": "anotheruser123",
     "Password": "securepass123",
     "Roles": [],
-    "Permissions": []
+    "Permissions": [],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
   },
   {
     "UserId": "u100233",
@@ -53,7 +97,9 @@
     ],
     "Permissions": [
       "policy.add"
-    ]
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
   },
   {
     "UserId": "u1002334",
@@ -61,7 +107,9 @@
     "Username": "anotheruser12345",
     "Password": "securepass123",
     "Roles": [],
-    "Permissions": []
+    "Permissions": [],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
   },
   {
     "UserId": "u100234",
@@ -69,6 +117,8 @@
     "Username": "anotheruser1345",
     "Password": "securepass123",
     "Roles": [],
-    "Permissions": []
+    "Permissions": [],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
   }
 ]

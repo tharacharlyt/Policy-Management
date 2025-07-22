@@ -25,6 +25,7 @@
 /Users/thara/PolicyManagement/obj/Debug/net8.0/PolicyManagement.csproj.CoreCompileInputs.cache
 /Users/thara/PolicyManagement/obj/Debug/net8.0/PolicyManagement.MvcApplicationPartsAssemblyInfo.cs
 /Users/thara/PolicyManagement/obj/Debug/net8.0/PolicyManagement.MvcApplicationPartsAssemblyInfo.cache
+/Users/thara/PolicyManagement/obj/Debug/net8.0/PolicyManagement.sourcelink.json
 /Users/thara/PolicyManagement/obj/Debug/net8.0/staticwebassets.build.json
 /Users/thara/PolicyManagement/obj/Debug/net8.0/staticwebassets.development.json
 /Users/thara/PolicyManagement/obj/Debug/net8.0/staticwebassets/msbuild.PolicyManagement.Microsoft.AspNetCore.StaticWebAssets.props
