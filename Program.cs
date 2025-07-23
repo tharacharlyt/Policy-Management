@@ -73,4 +73,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+var userJsonPath = Path.Combine(AppContext.BaseDirectory, "Data/users.json");
+PolicyManagement.Tools.PasswordHasher.HashAllPasswords(userJsonPath);
 app.Run();

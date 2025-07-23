@@ -120,57 +120,5 @@
     "Permissions": [],
     "RefreshToken": "",
     "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
-  },
-  {
-    "UserId": "84cb8499-51d1-4722-a2c0-488b4293d54c",
-    "Name": "string",
-    "Username": "string",
-    "PasswordHash": "$2a$11$Nz8XlkLSPFuZXkNzEILfsejy3rcZ89gngEunrQ3OiVvINVLjm8jC6",
-    "Roles": [
-      "string"
-    ],
-    "Permissions": [
-      "string"
-    ],
-    "RefreshToken": "ddeb5865-5026-4539-a788-61bc9fcec44f",
-    "RefreshTokenExpiryTime": "2025-07-30T17:27:40.051927Z"
-  },
-  {
-    "UserId": "b39973e2-e712-4b61-93f8-63d0a222e620",
-    "Name": "Thara Charly T",
-    "Username": "thara123",
-    "PasswordHash": "$2a$11$ZmDqu8Su976SMlUlCi4gZORw8l9BkbpCTfCcRLdbv9hocRyStqlkG",
-    "Roles": [
-      "Admin"
-    ],
-    "Permissions": [
-      "Policy.Add",
-      "Policy.List",
-      "Policy.Edit",
-      "Policy.Delete",
-      "Document.Add",
-      "Document.List"
-    ],
-    "RefreshToken": "fdad94a1-1032-4dc5-83c4-960b6b9f7bd2",
-    "RefreshTokenExpiryTime": "2025-07-30T17:43:06.785847Z"
-  },
-  {
-    "UserId": "38940f66-74b7-42b7-969e-3f3c81d22192",
-    "Name": "Thara Charly T",
-    "Username": "thara1234",
-    "PasswordHash": "$2a$11$yb9KfoRnRwJns2LZzuspRuRnEcEr1TsyBk93QvmBPvZWyFLYVcBBy",
-    "Roles": [
-      "Admin"
-    ],
-    "Permissions": [
-      "Policy.Add",
-      "Policy.List",
-      "Policy.Edit",
-      "Policy.Delete",
-      "Document.Add",
-      "Document.List"
-    ],
-    "RefreshToken": null,
-    "RefreshTokenExpiryTime": null
   }
 ]

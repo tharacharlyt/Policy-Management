@@ -3,7 +3,7 @@
     "UserId": "1",
     "Name": "Admin User",
     "Username": "admin",
-    "Password": "admin123",
+    "PasswordHash": "",
     "Roles": [
       "Admin"
     ],
@@ -21,7 +21,7 @@
     "UserId": "2",
     "Name": "Manager User",
     "Username": "manager",
-    "Password": "manager123",
+    "PasswordHash": "",
     "Roles": [
       "Manager"
     ],
@@ -38,7 +38,7 @@
     "UserId": "3",
     "Name": "Editor User",
     "Username": "editor",
-    "Password": "editor123",
+    "PasswordHash": "",
     "Roles": [
       "Editor"
     ],
@@ -53,7 +53,7 @@
     "UserId": "4",
     "Name": "Viewer User",
     "Username": "viewer",
-    "Password": "viewer123",
+    "PasswordHash": "",
     "Roles": [
       "Viewer"
     ],
@@ -67,7 +67,7 @@
     "UserId": "5",
     "Name": "Test User",
     "Username": "testuser",
-    "Password": "test123",
+    "PasswordHash": "",
     "Roles": [
       "Viewer"
     ],
@@ -81,7 +81,7 @@
     "UserId": "u10025",
     "Name": "Another User",
     "Username": "anotheruser123",
-    "Password": "securepass123",
+    "PasswordHash": "",
     "Roles": [],
     "Permissions": [],
     "RefreshToken": "",
@@ -91,7 +91,7 @@
     "UserId": "u100233",
     "Name": "Another User",
     "Username": "anotheruser1234",
-    "Password": "securepass123",
+    "PasswordHash": "",
     "Roles": [
       "Develop software"
     ],
@@ -105,7 +105,7 @@
     "UserId": "u1002334",
     "Name": "User 5",
     "Username": "anotheruser12345",
-    "Password": "securepass123",
+    "PasswordHash": "",
     "Roles": [],
     "Permissions": [],
     "RefreshToken": "",
@@ -115,9 +115,47 @@
     "UserId": "u100234",
     "Name": "User 5",
     "Username": "anotheruser1345",
-    "Password": "securepass123",
+    "PasswordHash": "",
     "Roles": [],
     "Permissions": [],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "50237de3-bbd3-42b6-baea-bf1bdd6c33b8",
+    "Name": "Charly1",
+    "Username": "Charly1",
+    "PasswordHash": "$2a$11$xW8Xzlo/gwS0ASceMQgVy.wUUFjWL9ryaVVVolcnC1vOcb.0sKbmG",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.List",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "bf3fec10-8c85-46bc-815b-9fb2ebc3c884",
+    "Name": "Charly11",
+    "Username": "Charly12",
+    "PasswordHash": "$2a$11$w/csxFdV2VOJ/P3f5VyrCOjCgG65Cjgu6TjozDA8Y.unNL9GNAftO",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.List",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Document.Add",
+      "Document.List"
+    ],
     "RefreshToken": "",
     "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
   }
