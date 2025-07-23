@@ -6,6 +6,10 @@
 /Users/thara/PolicyManagement/bin/Debug/net8.0/PolicyManagement.runtimeconfig.json
 /Users/thara/PolicyManagement/bin/Debug/net8.0/PolicyManagement.dll
 /Users/thara/PolicyManagement/bin/Debug/net8.0/PolicyManagement.pdb
+/Users/thara/PolicyManagement/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/Users/thara/PolicyManagement/bin/Debug/net8.0/FluentValidation.dll
+/Users/thara/PolicyManagement/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/thara/PolicyManagement/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
 /Users/thara/PolicyManagement/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/thara/PolicyManagement/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
 /Users/thara/PolicyManagement/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll

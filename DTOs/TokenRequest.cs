@@ -1,4 +1,4 @@
-namespace PolicyManagement.Models;
+namespace PolicyManagement.Models.DTOs;
 
 public class TokenRequest
 {

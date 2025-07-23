@@ -1,41 +1,61 @@
 using System.Text.Json;
 using PolicyManagement.Models;
 
-namespace PolicyManagement.Services
+namespace PolicyManagement.Services;
+
+public class JsonUserService : IUserService
 {
-    public interface IUserService
+    private readonly List<User>? _users;
+    private readonly string _jsonPath;
+
+    public JsonUserService()
     {
-        Task<User?> AuthenticateAsync(string username, string password);
+        _jsonPath = Path.Combine(AppContext.BaseDirectory, "Data/users.json");
+
+        if (!File.Exists(_jsonPath))
+            throw new FileNotFoundException($"User data file not found at: {_jsonPath}");
+
+        var json = File.ReadAllText(_jsonPath);
+
+        var options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        };
+
+        _users = JsonSerializer.Deserialize<List<User>>(json, options)
+                 ?? new List<User>();
     }
 
-    public class JsonUserService : IUserService
+    public Task<User?> AuthenticateAsync(string username, string password)
     {
-        private readonly List<User> _users;
+        var user = _users?.FirstOrDefault(u =>
+            u.Username.Equals(username, StringComparison.OrdinalIgnoreCase)
+            && BCrypt.Net.BCrypt.Verify(password, u.PasswordHash)
+        );
 
-        public JsonUserService()
-        {
-            var jsonPath = Path.Combine(AppContext.BaseDirectory, "Data/users.json");
-            if (!File.Exists(jsonPath))
-                throw new FileNotFoundException($"User data file not found at: {jsonPath}");
+        return Task.FromResult(user);
+    }
 
-            var json = File.ReadAllText(jsonPath);
+    public List<User> GetAllUsers()
+    {
+        return _users ?? new List<User>();
+    }
 
-            var options = new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            };
+    public void AddUser(User user)
+    {
+        if (_users == null) return;
 
-            _users = JsonSerializer.Deserialize<List<User>>(json, options)
-                     ?? throw new InvalidOperationException("Failed to load user data from users.json");
-        }
+        // ❗ Check if user exists
+        if (_users.Any(u => u.Username.Equals(user.Username, StringComparison.OrdinalIgnoreCase)))
+            throw new Exception("User already exists");
 
-        public Task<User?> AuthenticateAsync(string username, string password)
-        {
-            var user = _users.FirstOrDefault(u =>
-                u.Username.Equals(username, StringComparison.OrdinalIgnoreCase) &&
-                u.Password == password
-            );
-            return Task.FromResult(user);
-        }
+        // ✅ Hash password
+        user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+
+        _users.Add(user);
+
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        var json = JsonSerializer.Serialize(_users, options);
+        File.WriteAllText(_jsonPath, json);
     }
 }

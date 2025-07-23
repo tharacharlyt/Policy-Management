@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace PolicyManagement.Models;
+namespace PolicyManagement.Models.DTOs;
 
 public class RolePermissionRequest
 {

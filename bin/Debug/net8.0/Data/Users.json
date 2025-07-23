@@ -3,7 +3,7 @@
     "UserId": "1",
     "Name": "Admin User",
     "Username": "admin",
-    "Password": "admin123",
+    "PasswordHash": "",
     "Roles": [
       "Admin"
     ],
@@ -14,14 +14,14 @@
       "Policy.List",
       "Document.List"
     ],
-    "RefreshToken": "b8d24058-4e6f-4158-867a-c5b9b529a15f",
-    "RefreshTokenExpiryTime": "2025-07-29T18:23:56.047607Z"
+    "RefreshToken": "44f240f7-46f0-4aac-b855-9b25ff989550",
+    "RefreshTokenExpiryTime": "2025-07-30T06:20:26.897857Z"
   },
   {
     "UserId": "2",
     "Name": "Manager User",
     "Username": "manager",
-    "Password": "manager123",
+    "PasswordHash": "",
     "Roles": [
       "Manager"
     ],
@@ -38,7 +38,7 @@
     "UserId": "3",
     "Name": "Editor User",
     "Username": "editor",
-    "Password": "editor123",
+    "PasswordHash": "",
     "Roles": [
       "Editor"
     ],
@@ -53,7 +53,7 @@
     "UserId": "4",
     "Name": "Viewer User",
     "Username": "viewer",
-    "Password": "viewer123",
+    "PasswordHash": "",
     "Roles": [
       "Viewer"
     ],
@@ -67,21 +67,21 @@
     "UserId": "5",
     "Name": "Test User",
     "Username": "testuser",
-    "Password": "test123",
+    "PasswordHash": "",
     "Roles": [
       "Viewer"
     ],
     "Permissions": [
       "Document.List"
     ],
-    "RefreshToken": "e0dc84f2-6345-4f63-a9b4-d6956dfa4cb5",
-    "RefreshTokenExpiryTime": "2025-07-29T18:23:48.535302Z"
+    "RefreshToken": "b70a8810-b6a9-4c68-b2fa-53b5a21aeafb",
+    "RefreshTokenExpiryTime": "2025-07-30T07:09:16.786401Z"
   },
   {
     "UserId": "u10025",
     "Name": "Another User",
     "Username": "anotheruser123",
-    "Password": "securepass123",
+    "PasswordHash": "",
     "Roles": [],
     "Permissions": [],
     "RefreshToken": "",
@@ -91,7 +91,7 @@
     "UserId": "u100233",
     "Name": "Another User",
     "Username": "anotheruser1234",
-    "Password": "securepass123",
+    "PasswordHash": "",
     "Roles": [
       "Develop software"
     ],
@@ -105,7 +105,7 @@
     "UserId": "u1002334",
     "Name": "User 5",
     "Username": "anotheruser12345",
-    "Password": "securepass123",
+    "PasswordHash": "",
     "Roles": [],
     "Permissions": [],
     "RefreshToken": "",
@@ -115,10 +115,62 @@
     "UserId": "u100234",
     "Name": "User 5",
     "Username": "anotheruser1345",
-    "Password": "securepass123",
+    "PasswordHash": "",
     "Roles": [],
     "Permissions": [],
     "RefreshToken": "",
     "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "84cb8499-51d1-4722-a2c0-488b4293d54c",
+    "Name": "string",
+    "Username": "string",
+    "PasswordHash": "$2a$11$Nz8XlkLSPFuZXkNzEILfsejy3rcZ89gngEunrQ3OiVvINVLjm8jC6",
+    "Roles": [
+      "string"
+    ],
+    "Permissions": [
+      "string"
+    ],
+    "RefreshToken": "ddeb5865-5026-4539-a788-61bc9fcec44f",
+    "RefreshTokenExpiryTime": "2025-07-30T17:27:40.051927Z"
+  },
+  {
+    "UserId": "b39973e2-e712-4b61-93f8-63d0a222e620",
+    "Name": "Thara Charly T",
+    "Username": "thara123",
+    "PasswordHash": "$2a$11$ZmDqu8Su976SMlUlCi4gZORw8l9BkbpCTfCcRLdbv9hocRyStqlkG",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.List",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "fdad94a1-1032-4dc5-83c4-960b6b9f7bd2",
+    "RefreshTokenExpiryTime": "2025-07-30T17:43:06.785847Z"
+  },
+  {
+    "UserId": "38940f66-74b7-42b7-969e-3f3c81d22192",
+    "Name": "Thara Charly T",
+    "Username": "thara1234",
+    "PasswordHash": "$2a$11$yb9KfoRnRwJns2LZzuspRuRnEcEr1TsyBk93QvmBPvZWyFLYVcBBy",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.List",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": null,
+    "RefreshTokenExpiryTime": null
   }
 ]
