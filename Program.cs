@@ -5,6 +5,7 @@ using PolicyManagement.Services;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using PolicyManagement.Validators;
+using PolicyManagement.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -67,7 +68,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<ExceptionMiddleware>();
 // ✅ Middleware pipeline
 app.UseAuthentication();
 app.UseAuthorization();

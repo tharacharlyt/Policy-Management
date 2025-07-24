@@ -1,7 +1,7 @@
-namespace PolicyManagement.Models.DTOs;
-
-public class TokenRequest
+namespace PolicyManagement.DTOs
 {
-    public string AccessToken { get; set; } = string.Empty;
-    public string RefreshToken { get; set; } = string.Empty;
+    public class TokenRequest
+    {
+        public string RefreshToken { get; set; } = string.Empty;
+    }
 }

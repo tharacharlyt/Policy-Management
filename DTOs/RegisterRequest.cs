@@ -1,4 +1,4 @@
-namespace PolicyManagement.Models.DTOs;
+namespace PolicyManagement.DTOs;
 
 public class RegisterRequest
 {
@@ -6,5 +6,4 @@ public class RegisterRequest
     public string Username { get; set; } = string.Empty;
     public string Password { get; set; } = string.Empty;
     public List<string> Roles { get; set; } = new();
-    public List<string> Permissions { get; set; } = new();
 }

@@ -1,5 +1,5 @@
 using FluentValidation;
-using PolicyManagement.Models.DTOs;
+using PolicyManagement.DTOs;
 
 namespace PolicyManagement.Validators;
 
@@ -20,9 +20,6 @@ public class RegisterRequestValidator : AbstractValidator<RegisterRequest>
         RuleFor(x => x.Roles)
             .NotNull().WithMessage("Roles are required")
             .Must(r => r.Count > 0).WithMessage("At least one role is required");
-
-        RuleFor(x => x.Permissions)
-            .NotNull().WithMessage("Permissions are required")
-            .Must(p => p.Count > 0).WithMessage("At least one permission is required");
+            
     }
 }

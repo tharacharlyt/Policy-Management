@@ -158,5 +158,225 @@
     ],
     "RefreshToken": "",
     "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "f81ce076-3d38-4a46-ba7e-0acd25b53762",
+    "Name": "Charly12",
+    "Username": "Charly13",
+    "PasswordHash": "$2a$11$cuHkZfzdlDz90qKK5TwJ0.fBbECU.HpmDvCZ84gIcFrI/OqzKZNs2",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.List",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "12042b00-9bfd-47de-b25e-e795fbff4af0",
+    "RefreshTokenExpiryTime": "2025-07-30T19:23:01.678695Z"
+  },
+  {
+    "UserId": "cfdfef8b-ebf9-4d88-8a71-d99be9dcd437",
+    "Name": "Thara111",
+    "Username": "Thara111",
+    "PasswordHash": "$2a$11$zGcRZZ9qRAOuL4iSObSQQu6ph4ZI0xXEtsHIXrWApnes8xocOCk82",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.List",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "1877e65c-155a-42f9-9c87-222991a26d4b",
+    "Name": "Thara1113",
+    "Username": "Thara11",
+    "PasswordHash": "$2a$11$8QDdYr1dg4NicuBg.SNl8.H6XZf.UwAEE3HuIjGAvKxtTliNiBc/a",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.List",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "709fc9d7-2fce-47d7-92ad-dc99dde0f036",
+    "Name": "Tharacharly111",
+    "Username": "Thara11112",
+    "PasswordHash": "$2a$11$Z20QJgTJcFMU9FjoQhPuJOPmHyMjcv23vvNeCgo4PUs9qc.QaQ05S",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.List",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "eac9dfd4-d0ad-4493-8079-6ddcf69ba54f",
+    "Name": "Thara Charly",
+    "Username": "tharac",
+    "PasswordHash": "$2a$11$QhmUpKKYdd1coO1ygnaHQ.hCphMEfA0ImTktPYaVMvNUABk11tmbi",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Policy.List",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "e9d3a56a-2a40-499f-b795-2ffc70c53f4c",
+    "RefreshTokenExpiryTime": "2025-07-31T05:38:10.225264Z"
+  },
+  {
+    "UserId": "f383da4d-e575-480c-b617-75ce5fac1e12",
+    "Name": "Manu R",
+    "Username": "manur",
+    "PasswordHash": "$2a$11$2MQ3mn.2KwqhFwsaOgjPteyD3P5gIabPg6AjEnas4WhYV5tG5JoAS",
+    "Roles": [
+      "Manager"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.List",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "6e31d368-9884-4ce1-94f7-5224a0613f5a",
+    "Name": "Manu R1",
+    "Username": "manur1",
+    "PasswordHash": "$2a$11$OKPWYlCTFwB2gRg7qSFoKeaxtFkm7doW4rLplh/GYfhiLtKftpBMO",
+    "Roles": [
+      "Manager"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.List",
+      "Document.List"
+    ],
+    "RefreshToken": "38c52032-1f01-4bec-ba11-5cb637eebe7f",
+    "RefreshTokenExpiryTime": "2025-07-31T15:10:34.901529Z"
+  },
+  {
+    "UserId": "09f5e674-086a-4eb0-93c6-c417091a3b6f",
+    "Name": "Manu R1",
+    "Username": "manur11",
+    "PasswordHash": "$2a$11$cgP5wGY3V36hZFJqW1g05.yKHoep0AlKlhVG9nnyOQ1/w0/oR0i8G",
+    "Roles": [
+      "Manager"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.List",
+      "Document.List"
+    ],
+    "RefreshToken": "139d0e96-224d-45b5-8503-7342a42c8153",
+    "RefreshTokenExpiryTime": "2025-07-31T15:40:39.428244Z"
+  },
+  {
+    "UserId": "6636601c-884a-44ff-ba2c-e86aaa747b50",
+    "Name": "Nasib",
+    "Username": "nasib111111",
+    "PasswordHash": "$2a$11$ldL8yyNuOuIDKPdOip75PeMha99.UOQ2CDFgsvnYQBFLL/OLNbth2",
+    "Roles": [
+      "Manager"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.List",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "ae1d4798-310b-4142-89f9-d70f6cde27de",
+    "Name": "Test User22",
+    "Username": "testuser66",
+    "PasswordHash": "$2a$11$kPGnSRtSgDPIn6.DF9weu.vp5RV3/N3vxdlKDKr16Xdc7Dz4kqy7.",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Policy.List",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "a74ac61b-4270-46fa-8380-731b02623c3e",
+    "Name": "Test User2244",
+    "Username": "testuse444r66",
+    "PasswordHash": "$2a$11$RcU9FjZv0nqTTo14/SrcxeE9henY/gvdouX0aug1SWyd8Y6wV9ytm",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Policy.List",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
+  },
+  {
+    "UserId": "22c4f69a-6649-440b-b73c-6bf1bae2b35a",
+    "Name": "Test User",
+    "Username": "testuser1",
+    "PasswordHash": "$2a$11$2.QhDmuj1he5.lQ45EhWXuT3S8DHVmpkTmrEo.qDss9NBEC4am6.O",
+    "Roles": [
+      "Admin"
+    ],
+    "Permissions": [
+      "Policy.Add",
+      "Policy.Edit",
+      "Policy.Delete",
+      "Policy.List",
+      "Document.Add",
+      "Document.List"
+    ],
+    "RefreshToken": "",
+    "RefreshTokenExpiryTime": "0001-01-01T00:00:00"
   }
 ]
